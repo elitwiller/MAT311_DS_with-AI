@@ -20,7 +20,7 @@ I used **Claude Sonnet 5.5** (Anthropic) through the Claude chat interface to ge
 
 ## Reflection on AI Assistance
 
-**Benefits:** The biggest benefit using AI was speed, I was able to quickly and efficiently load, clean, visualize the data. Writing this code myself would have resulted in longer, more drawn out steps where I had to know proper syntax, and likely debug when I missed something, or had the wrong syntax. Claude on the other hand "knows" syntax better and had no bugs in its implementation, besides formatting or naming issues which could be resolved with another prompt.
+**Benefits:** The biggest benefit using AI was speed, I was able to quickly and efficiently load, clean, visualize the data. Writing this code myself would have resulted in longer, more drawn out steps where I had to know proper syntax, and likely debug when I missed something, or had the wrong syntax. Claude on the other hand "knows" syntax better and had little bugs in its implementation as seen below.
 
 **Dangers and Verification:** Someone using AI without learning or knowing Data Science could trust that the output and what the AI model is generating is correct without properly verifying the output. I ran into an issue like this when Claude made the scatterplots, the plot had both green and red dots for non-fraudulent and fraudulent data points respectively. However, the legend showed that both "Non-Fraudulent" and "Fraudulent" points were green. I noticed this by confirming the output and double checking what the code was producing, Claude wrote code that overwrote seaborn's legend marker.
 
