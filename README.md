@@ -12,8 +12,6 @@ This repository contains one notebook, `AI_assignment.ipynb`, that performs an e
 - Single-variable visualizations: countplots for fraud, PIN use, repeat retailer, and online orders, plus histograms for purchase price ratio and distance from home
 - Bivariate visualizations: count plots and stacked percentage plots showing how fraud breaks down by PIN use, chip use, and online orders, plus scatterplots of distance versus purchase price ratio, colored by fraud status
 
-This assignment covers only the EDA. No machine learning or prediction is included.
-
 ## How I used AI
 
 I used **Claude Sonnet 5.5** (Anthropic) through the Claude chat interface to generate all of the code. I wrote my own prompts, one step at a time, describing what I wanted to see (for example, "create a countplot where the hue is fraud and compare with green and red columns"). The key prompts appear in the notebook as markdown cells directly above the code they produced, and each is labeled with the AI used. I did not include the back-and-forth where I asked Claude to adjust its output (for example, splitting plots into separate figures or changing axis labels). The final prompt in the notebook asked Claude to write the explanatory markdown (title, data context, section headers, and the justification for dropping null values).
